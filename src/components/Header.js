@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <div className="w-10 md:w-10 lg:w-11 aspect-square shrink-0 bg-primary rounded-full flex items-center justify-center overflow-hidden ring-2 ring-white/10">
-              <img src={`${imageBase}/icon.jpg`} alt="Robot" className="block w-full h-full object-cover object-center rounded-full" />
+              <img src={`${imageBase}/icon.jpg`} alt="Robot" className="block w-full h-full object-cover object-center rounded-full" decoding="async" />
             </div>
             <div>
               <h1 className="text-white font-bold text-lg md:text-lg lg:text-lg">Club Robotique</h1>
