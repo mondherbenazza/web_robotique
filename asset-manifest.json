@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/web_robotique/static/css/main.533ca0b3.css",
-    "main.js": "/web_robotique/static/js/main.bb0b774e.js",
+    "main.js": "/web_robotique/static/js/main.b76a84d5.js",
     "static/media/bg5.webp": "/web_robotique/static/media/bg5.2a2659064adae6d25c56.webp",
     "index.html": "/web_robotique/index.html"
   },
   "entrypoints": [
     "static/css/main.533ca0b3.css",
-    "static/js/main.bb0b774e.js"
+    "static/js/main.b76a84d5.js"
   ]
 }
