@@ -6,7 +6,7 @@ import { smoothScrollTo } from '../utils/animations';
  * Full-width banner with main title, subtitle and CTA
  */
 const Hero = () => {
-  const publicImageBase = process.env.PUBLIC_URL || '';
+  const imageBase = `${process.env.PUBLIC_URL}/images`;
 
   const handleJoinClick = () => {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdTpYtKvZ01bV7l4drV51nnaavL2lEKgLfZNrQUfQcjvu7Yqg/viewform?usp=dialog';
@@ -22,7 +22,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            `linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('${publicImageBase}/images/bg.png')`,
+            `linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('${imageBase}/bg.png')`,
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/72 via-slate-950/80 to-secondary/90"></div>

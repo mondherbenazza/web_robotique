@@ -8,28 +8,28 @@ import { useInViewAnimation } from '../utils/animations';
 const Projects = () => {
   const ref = useRef(null);
   const isVisible = useInViewAnimation(ref);
-  const publicImageBase = process.env.PUBLIC_URL || '';
+  const imageBase = `${process.env.PUBLIC_URL}/images`;
 
   const projects = [
     {
       id: 1,
       title: 'Robot Bluetooth',
-      image: `${publicImageBase}/images/bluetooth.png`,
+      image: `${imageBase}/bluetooth.png`,
     },
     {
       id: 2,
       title: 'Feu LED',
-      image: `${publicImageBase}/images/led.webp`,
+      image: `${imageBase}/led.webp`,
     },
     {
       id: 3,
       title: 'Bras servo',
-      image: `${publicImageBase}/images/servo.png`,
+      image: `${imageBase}/servo.png`,
     },
     {
       id: 4,
       title: 'Capteurs',
-      image: `${publicImageBase}/images/capteur.png`,
+      image: `${imageBase}/capteur.png`,
     },
   ];
 
