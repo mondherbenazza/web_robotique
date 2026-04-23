@@ -9,13 +9,14 @@ import { useInViewAnimation } from '../utils/animations';
 const WhatYouLearn = () => {
   const ref = useRef(null);
   const isVisible = useInViewAnimation(ref);
+  const publicImageBase = process.env.PUBLIC_URL || '';
 
   const skills = [
     {
       id: 1,
       title: 'Robotique',
       description: 'Conception et assemblage des robots',
-      image: '/images/project3.webp',
+      image: `${publicImageBase}/images/project3.webp`,
       icon: FaRobot,
       color: 'from-yellow-500 to-orange-500',
     },
@@ -23,7 +24,7 @@ const WhatYouLearn = () => {
       id: 2,
       title: 'Arduino',
       description: 'Programmation des microcontrôleurs Arduino',
-      image: '/images/project1.avif',
+      image: `${publicImageBase}/images/project1.avif`,
       icon: FaRaspberryPi,
       color: 'from-blue-500 to-cyan-500',
     },
@@ -31,7 +32,7 @@ const WhatYouLearn = () => {
       id: 3,
       title: 'Électronique',
       description: 'Principes des circuits et composants électroniques',
-      image: '/images/project2.jpg',
+      image: `${publicImageBase}/images/project2.jpg`,
       icon: FaVials,
       color: 'from-purple-500 to-pink-500',
     },
@@ -39,7 +40,7 @@ const WhatYouLearn = () => {
       id: 4,
       title: 'Programmation',
       description: 'C/C++ et logique algorithmique',
-      image: '/images/project4.jpg',
+      image: `${publicImageBase}/images/project4.jpg`,
       icon: FaCode,
       color: 'from-green-500 to-emerald-500',
     },

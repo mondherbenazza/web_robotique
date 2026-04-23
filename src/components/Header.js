@@ -5,6 +5,8 @@ import React from 'react';
  * Navigation bar with logo, title, and action buttons
  */
 const Header = () => {
+  const publicImageBase = process.env.PUBLIC_URL || '';
+
   const handleJoinClick = () => {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdTpYtKvZ01bV7l4drV51nnaavL2lEKgLfZNrQUfQcjvu7Yqg/viewform?usp=dialog';
   };
@@ -20,7 +22,7 @@ const Header = () => {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <div className="w-10 md:w-10 lg:w-11 aspect-square shrink-0 bg-primary rounded-full flex items-center justify-center overflow-hidden ring-2 ring-white/10">
-              <img src="/images/icon.jpg" alt="Robot" className="block w-full h-full object-cover object-center rounded-full" />
+              <img src={`${publicImageBase}/images/icon.jpg`} alt="Robot" className="block w-full h-full object-cover object-center rounded-full" />
             </div>
             <div>
               <h1 className="text-white font-bold text-lg md:text-lg lg:text-lg">Club Robotique</h1>
