@@ -24,7 +24,7 @@ const WhatYouLearn = () => {
       id: 2,
       title: 'Arduino',
       description: 'Programmation des microcontrôleurs Arduino',
-      image: `${imageBase}/project1.avif`,
+      image: `${imageBase}/project1.webp`,
       icon: FaRaspberryPi,
       color: 'from-blue-500 to-cyan-500',
     },
