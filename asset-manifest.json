@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/web_robotique/static/css/main.d1984983.css",
+    "main.js": "/web_robotique/static/js/main.e7d2ea86.js",
+    "static/media/bg5.jpg": "/web_robotique/static/media/bg5.47cd56ce70f2d3197596.jpg",
+    "index.html": "/web_robotique/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.d1984983.css",
+    "static/js/main.e7d2ea86.js"
+  ]
+}
