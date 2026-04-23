@@ -12,7 +12,7 @@ const IntroTech = () => {
     <section id="intro-tech" className="relative -mt-6 md:-mt-10 py-6 md:py-8 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 blur-[4px]"
-        style={{ backgroundImage: `url('${imageBase}/bg5.jpg')` }}
+        style={{ backgroundImage: `url('${imageBase}/bg5.webp')` }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-slate-950/85 to-slate-950/90"></div>
 

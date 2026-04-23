@@ -22,7 +22,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            `linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('${imageBase}/bg.png')`,
+            `linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('${imageBase}/bg.webp')`,
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/72 via-slate-950/80 to-secondary/90"></div>

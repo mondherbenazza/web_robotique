@@ -36,7 +36,7 @@ main > section::before {
   content: '';
   position: absolute;
   inset: -24px;
-  background-image: url('./assets/bg5.jpg');
+  background-image: url('./assets/bg5.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

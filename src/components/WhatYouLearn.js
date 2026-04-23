@@ -32,7 +32,7 @@ const WhatYouLearn = () => {
       id: 3,
       title: 'Électronique',
       description: 'Principes des circuits et composants électroniques',
-      image: `${imageBase}/project2.jpg`,
+      image: `${imageBase}/project2.webp`,
       icon: FaVials,
       color: 'from-purple-500 to-pink-500',
     },
@@ -40,7 +40,7 @@ const WhatYouLearn = () => {
       id: 4,
       title: 'Programmation',
       description: 'C/C++ et logique algorithmique',
-      image: `${imageBase}/project4.jpg`,
+      image: `${imageBase}/project4.webp`,
       icon: FaCode,
       color: 'from-green-500 to-emerald-500',
     },
@@ -77,6 +77,8 @@ const WhatYouLearn = () => {
                   src={skill.image}
                   alt={skill.title}
                   className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/52 to-black/30"></div>
 

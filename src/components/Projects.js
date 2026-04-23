@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'Robot Bluetooth',
-      image: `${imageBase}/bluetooth.png`,
+      image: `${imageBase}/bluetooth.webp`,
     },
     {
       id: 2,
@@ -24,12 +24,12 @@ const Projects = () => {
     {
       id: 3,
       title: 'Bras servo',
-      image: `${imageBase}/servo.png`,
+      image: `${imageBase}/servo.webp`,
     },
     {
       id: 4,
       title: 'Capteurs',
-      image: `${imageBase}/capteur.png`,
+      image: `${imageBase}/capteur.webp`,
     },
   ];
 
@@ -63,6 +63,7 @@ const Projects = () => {
                 alt={project.title}
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/55 to-black/20 group-hover:from-black/80 transition-all duration-300"></div>
 
