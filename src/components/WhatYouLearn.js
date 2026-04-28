@@ -67,10 +67,10 @@ const WhatYouLearn = () => {
                 key={skill.id}
                 className={`
                   relative rounded-xl overflow-hidden
-                  transform transition-all duration-500 hover:scale-105
+                  transform transition-all duration-[250ms] hover:scale-105
                   ${isVisible ? `animate-slide-up` : 'opacity-0'}
                 `}
-                style={{ animationDelay: isVisible ? `${index * 60}ms` : '0ms' }}
+                style={{ animationDelay: isVisible ? `${index * 30}ms` : '0ms' }}
               >
                 {/* Image Background */}
                 <img

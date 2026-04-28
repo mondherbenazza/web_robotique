@@ -15,8 +15,8 @@ const themeConfig = {
 
   // Contact Information
   contact: {
-    phone: '+216 28 797 217',
-    phoneLink: '+21628797217',
+    phone: '+216 50 929 793',
+    phoneLink: '+21650929793',
     facebook: {
       name: 'Club Robotique Bizerte',
       url: 'https://www.facebook.com/profile.php?id=61588477076260',

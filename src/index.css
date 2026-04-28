@@ -59,12 +59,12 @@ main > section::after {
 
 /* Animations globales */
 .fade-in-on-scroll {
-  animation: fadeIn 0.6s ease-in-out forwards;
+  animation: fadeIn 0.3s ease-in-out forwards;
   opacity: 0;
 }
 
 .slide-up-on-scroll {
-  animation: slideUp 0.6s ease-out forwards;
+  animation: slideUp 0.3s ease-out forwards;
   opacity: 0;
 }
 

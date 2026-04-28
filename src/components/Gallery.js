@@ -81,11 +81,11 @@ const Gallery = () => {
               key={image.id}
               className={`
                 relative group rounded-2xl overflow-hidden aspect-video
-                transform transition-all duration-500 hover:scale-105
+                transform transition-all duration-[250ms] hover:scale-105
                 cursor-pointer
                 ${isVisible ? `animate-fade-in` : 'opacity-0'}
               `}
-              style={{ animationDelay: isVisible ? `${index * 60}ms` : '0ms' }}
+              style={{ animationDelay: isVisible ? `${index * 30}ms` : '0ms' }}
             >
               {/* Gradient background (placeholder) */}
               <div className={`absolute inset-0 bg-gradient-to-br ${image.gradient}`}></div>

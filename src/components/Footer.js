@@ -22,10 +22,10 @@ const Footer = () => {
             <div>
               <p className="text-gray-300 text-sm md:text-sm font-bold">Téléphone</p>
               <a
-                href="tel:28797217"
+                href="tel:+21650929793"
                 className="text-white font-semibold text-sm md:text-base hover:text-primary transition-colors duration-300"
               >
-                +216 28 797 217
+                +216 50 929 793
               </a>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 href="https://www.facebook.com/profile.php?id=61588477076260"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center rounded-lg border border-blue-400/50 bg-blue-500/15 px-2.5 py-1.5 text-white font-semibold text-sm md:text-base hover:text-blue-200 hover:bg-blue-500/30 hover:border-blue-300 transition-all duration-300"
+                className="text-white font-semibold text-sm md:text-base underline underline-offset-4 decoration-blue-400 hover:text-blue-200 hover:decoration-blue-300 transition-colors duration-300"
               >
                 Club Robotique Bizerte
               </a>

@@ -52,10 +52,10 @@ const Projects = () => {
               key={project.id}
               className={`
                 group relative rounded-xl overflow-hidden
-                min-h-[220px] lg:min-h-[180px] transform transition-all duration-500 hover:scale-105
+                min-h-[220px] lg:min-h-[180px] transform transition-all duration-[250ms] hover:scale-105
                 ${isVisible ? `animate-slide-up` : 'opacity-0'}
               `}
-              style={{ animationDelay: isVisible ? `${index * 60}ms` : '0ms' }}
+              style={{ animationDelay: isVisible ? `${index * 30}ms` : '0ms' }}
             >
               {/* Project image */}
               <img

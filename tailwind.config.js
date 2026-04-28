@@ -11,8 +11,8 @@ module.exports = {
         accent: '#3B82F6',
       },
       animation: {
-        'fade-in': 'fadeIn 0.3s ease-in-out',
-        'slide-up': 'slideUp 0.3s ease-out',
+        'fade-in': 'fadeIn 0.15s ease-in-out',
+        'slide-up': 'slideUp 0.15s ease-out',
         'glow-pulse': 'glowPulse 2s ease-in-out infinite',
       },
       keyframes: {

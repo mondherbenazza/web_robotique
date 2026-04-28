@@ -78,10 +78,10 @@ const Benefits = () => {
                 className={`
                   ${benefit.color} border backdrop-blur
                   rounded-2xl p-4 md:p-5 lg:p-4
-                  transform transition-all duration-500 hover:scale-105 hover:shadow-xl
+                  transform transition-all duration-[250ms] hover:scale-105 hover:shadow-xl
                   ${isVisible ? `animate-slide-up` : 'opacity-0'}
                 `}
-                style={{ animationDelay: isVisible ? `${index * 80}ms` : '0ms' }}
+                style={{ animationDelay: isVisible ? `${index * 40}ms` : '0ms' }}
               >
                 {/* Icon */}
                 <div className="text-3xl md:text-3xl lg:text-2xl mb-3 text-primary">
