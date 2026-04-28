@@ -1,7 +1,7 @@
 {
   "name": "club-robotique-bizerte",
   "version": "1.0.0",
-  "homepage": "https://mondherbenazza.github.io/web_robotique",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.2",
